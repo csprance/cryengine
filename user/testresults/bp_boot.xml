@@ -1,0 +1,614 @@
+<root>
+	<thread name="Main" totalTimeMS="5261.548828" startTime="678305756919" stopTime="678358372409" > 
+		<block name="CSystem::Init" totalTimeMS="5168.492188" startTime="678305801408" stopTime="678357486329" args=""> 
+			<block name="CSystem::InitFileSystem" totalTimeMS="977.423889" startTime="678305811727" stopTime="678315585966" args=""> 
+				<block name="CCryPak::CCryPak" totalTimeMS="977.391113" startTime="678305811911" stopTime="678315585822" args=""> 
+					<block name="ZipEncrypt::Init" totalTimeMS="977.376587" startTime="678305812053" stopTime="678315585819" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CLog::CreateBackupFile" totalTimeMS="0.230700" startTime="678315587141" stopTime="678315589448" args=""> 
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.249000" startTime="678315591985" stopTime="678315594475" args=""> 
+			</block>
+			<block name="CSystem::InitFileSystem_LoadEngineFolders" totalTimeMS="585.664795" startTime="678316557101" stopTime="678322413749" args=""> 
+				<block name="CCryPak::FOpen" totalTimeMS="0.123100" startTime="678316557275" stopTime="678316558506" args=""> 
+				</block>
+				<block name="CSystem::OpenBasicPaks" totalTimeMS="581.249084" startTime="678316564294" stopTime="678322376785" args=""> 
+					<block name="CCryPak::OpenArchive" totalTimeMS="47.349701" startTime="678316566849" stopTime="678317040346" args="gamesdk\animations.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="44.447300" startTime="678316566864" stopTime="678317011337" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.972100" startTime="678317017506" stopTime="678317037227" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="51.775902" startTime="678317040408" stopTime="678317558167" args="gamesdk\ddsobjects1.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="49.334599" startTime="678317040451" stopTime="678317533797" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.935200" startTime="678317535955" stopTime="678317555307" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="31.900801" startTime="678317558217" stopTime="678317877225" args="gamesdk\ddsobjects2.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="29.264898" startTime="678317558244" stopTime="678317850893" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.946600" startTime="678317853790" stopTime="678317873256" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.131600" startTime="678317853935" stopTime="678317855251" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="24.653999" startTime="678317877278" stopTime="678318123818" args="gamesdk\ddstextures1.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="21.638599" startTime="678317877328" stopTime="678318093714" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="2.378300" startTime="678318095800" stopTime="678318119583" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.107100" startTime="678318095912" stopTime="678318096983" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="41.374203" startTime="678318123886" stopTime="678318537628" args="gamesdk\ddstextures2.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="31.070202" startTime="678318123913" stopTime="678318434615" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="8.407100" startTime="678318437072" stopTime="678318521143" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.374700" startTime="678318437181" stopTime="678318440928" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="23.654701" startTime="678318537733" stopTime="678318774280" args="gamesdk\gamedata.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="20.306400" startTime="678318537775" stopTime="678318740839" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="2.629600" startTime="678318742750" stopTime="678318769046" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.121800" startTime="678318742785" stopTime="678318744003" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="60.230797" startTime="678318774328" stopTime="678319376636" args="gamesdk\objects.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="43.641201" startTime="678318774351" stopTime="678319210763" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="13.292300" startTime="678319212629" stopTime="678319345552" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.598500" startTime="678319212766" stopTime="678319218751" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="37.165501" startTime="678319376761" stopTime="678319748416" args="gamesdk\otextures.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="32.932400" startTime="678319376800" stopTime="678319706124" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="3.434600" startTime="678319708267" stopTime="678319742613" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.188100" startTime="678319708376" stopTime="678319710257" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="37.966000" startTime="678319748469" stopTime="678320128129" args="gamesdk\otexturescharacters.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="33.193901" startTime="678319748493" stopTime="678320080432" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="4.015500" startTime="678320082116" stopTime="678320122271" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.203100" startTime="678320082248" stopTime="678320084279" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="46.274700" startTime="678320128192" stopTime="678320590939" args="gamesdk\otexturesnatural.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="44.240101" startTime="678320128215" stopTime="678320570616" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.620700" startTime="678320572463" stopTime="678320588670" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="15.313699" startTime="678320591045" stopTime="678320744182" args="gamesdk\otexturesprops.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="12.477700" startTime="678320592576" stopTime="678320717353" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.677900" startTime="678320592719" stopTime="678320599498" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="10.508100" startTime="678320744250" stopTime="678320849331" args="gamesdk\otexturesstructures.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.109800" startTime="678320744319" stopTime="678320745417" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="8.676400" startTime="678320747090" stopTime="678320833854" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.572900" startTime="678320747205" stopTime="678320752934" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="2.385600" startTime="678320849431" stopTime="678320873287" args="gamesdk\otexturesvehicles.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.106100" startTime="678320849481" stopTime="678320850542" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.835600" startTime="678320852047" stopTime="678320870403" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="2.849900" startTime="678320873334" stopTime="678320901833" args="gamesdk\otexturesweapons.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="2.260900" startTime="678320875193" stopTime="678320897802" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.129200" startTime="678320875222" stopTime="678320876514" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="2.831100" startTime="678320901921" stopTime="678320930232" args="gamesdk\scripts.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="2.480500" startTime="678320905357" stopTime="678320930162" args=""> 
+							<block name="ZipEncrypt::DecryptBufferWithStreamCipher" totalTimeMS="1.440600" startTime="678320905865" stopTime="678320920271" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.306000" startTime="678320930279" stopTime="678320933339" args="gamesdk\sounds.pak"> 
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="3.870100" startTime="678320933376" stopTime="678320972077" args="gamesdk\textures.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="3.053300" startTime="678320934801" stopTime="678320965334" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.161400" startTime="678320934868" stopTime="678320936482" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="4.661400" startTime="678320972123" stopTime="678321018737" args="gamesdk\texturesarchitecture.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="4.170500" startTime="678320972160" stopTime="678321013865" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.269000" startTime="678321015632" stopTime="678321018322" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="1.759500" startTime="678321018796" stopTime="678321036391" args="gamesdk\texturesdecals.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.350500" startTime="678321020320" stopTime="678321033825" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="2.220600" startTime="678321036430" stopTime="678321058636" args="gamesdk\texturesgeneric.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.729400" startTime="678321038258" stopTime="678321055552" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="4.796400" startTime="678321058681" stopTime="678321106645" args="gamesdk\texturesgwip.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="3.981800" startTime="678321058695" stopTime="678321098513" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.573200" startTime="678321099997" stopTime="678321105729" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="0.620700" startTime="678321106701" stopTime="678321112908" args="gamesdk\texturesroads.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.405400" startTime="678321108294" stopTime="678321112348" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="1.921800" startTime="678321112926" stopTime="678321132144" args="gamesdk\texturesterrain.pak"> 
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="1.488600" startTime="678321114303" stopTime="678321129189" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="18.965200" startTime="678321132465" stopTime="678321322117" args="engine\engine.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="18.081400" startTime="678321132491" stopTime="678321313305" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.613100" startTime="678321315037" stopTime="678321321168" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="41.896000" startTime="678321322210" stopTime="678321741170" args="engine\shadercache.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="40.857101" startTime="678321322224" stopTime="678321730795" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.760700" startTime="678321732516" stopTime="678321740123" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="19.035101" startTime="678321741245" stopTime="678321931596" args="engine\shadercachestartup.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="18.626801" startTime="678321741260" stopTime="678321927528" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.169600" startTime="678321929627" stopTime="678321931323" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="4.601100" startTime="678321931706" stopTime="678321977717" args="engine\shaders.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="4.294200" startTime="678321931718" stopTime="678321974660" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.107600" startTime="678321976508" stopTime="678321977584" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::OpenArchive" totalTimeMS="4.854200" startTime="678321977846" stopTime="678322026388" args="engine\shadersbin.pak"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="4.486600" startTime="678321977872" stopTime="678322022738" args=""> 
+						</block>
+						<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.163000" startTime="678322024558" stopTime="678322026188" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::LoadPakToMemory" totalTimeMS="35.032001" startTime="678322026447" stopTime="678322376767" args="engine.pak"> 
+						<block name="ZipDir::CZipFile::LoadToMemory" totalTimeMS="35.016998" startTime="678322026586" stopTime="678322376756" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="34.998898" startTime="678322026761" stopTime="678322376750" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::InitPhysics" totalTimeMS="1.182800" startTime="678322448920" stopTime="678322460748" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.959500" startTime="678322449118" stopTime="678322458713" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitLocalization" totalTimeMS="32.567299" startTime="678322460757" stopTime="678322786430" args=""> 
+				<block name="CCryPak::OpenArchive" totalTimeMS="13.981600" startTime="678322463327" stopTime="678322603143" args="localization\english_xml.pak"> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="13.700600" startTime="678322463346" stopTime="678322600352" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::OpenArchive" totalTimeMS="18.200300" startTime="678322604360" stopTime="678322786363" args="localization\english.pak"> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="17.830999" startTime="678322604373" stopTime="678322782683" args=""> 
+					</block>
+					<block name="ZipDir::CacheFactory::BuildFileEntryMap" totalTimeMS="0.121800" startTime="678322785013" stopTime="678322786231" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::InitRenderer" totalTimeMS="435.555481" startTime="678322786986" stopTime="678327142541" args=""> 
+				<block name="CSystem::OpenRenderLibrary" totalTimeMS="410.429688" startTime="678322787007" stopTime="678326891304" args=""> 
+					<block name="CSystem::OpenRenderLibrary" totalTimeMS="410.429382" startTime="678322787009" stopTime="678326891303" args=""> 
+						<block name="CSystem::LoadDLL" totalTimeMS="1.635800" startTime="678322787176" stopTime="678322803534" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CShaderMan::mfInit" totalTimeMS="24.754301" startTime="678326891819" stopTime="678327139362" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.109400" startTime="678326893922" stopTime="678326895016" args=""> 
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="15.407901" startTime="678326896234" stopTime="678327050313" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="15.406600" startTime="678326896237" stopTime="678327050303" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="15.403000" startTime="678326896257" stopTime="678327050287" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="0.252700" startTime="678327050988" stopTime="678327053515" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="0.252300" startTime="678327050989" stopTime="678327053512" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="0.251000" startTime="678327050998" stopTime="678327053508" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::InitFont" totalTimeMS="13.168100" startTime="678357144360" stopTime="678357276041" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="13.100000" startTime="678357144547" stopTime="678357275547" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitNetwork" totalTimeMS="6.969400" startTime="678357277448" stopTime="678357347142" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="1.335900" startTime="678357277609" stopTime="678357290968" args=""> 
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.124900" startTime="678357292156" stopTime="678357293405" args="Scripts/Network/Scheduler.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.113100" startTime="678357292260" stopTime="678357293391" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::InitOnline" totalTimeMS="1.136200" startTime="678357347279" stopTime="678357358641" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="1.121500" startTime="678357347424" stopTime="678357358639" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitLobby" totalTimeMS="0.885400" startTime="678357358756" stopTime="678357367610" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.647900" startTime="678357358898" stopTime="678357365377" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitMovieSystem" totalTimeMS="0.762100" startTime="678357367696" stopTime="678357375317" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.568900" startTime="678357367820" stopTime="678357373509" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitAISystem" totalTimeMS="1.502000" startTime="678357376369" stopTime="678357391389" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="1.063400" startTime="678357376499" stopTime="678357387133" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitAnimationSystem" totalTimeMS="1.132500" startTime="678357391691" stopTime="678357403016" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.747300" startTime="678357391839" stopTime="678357399312" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::Init3DEngine" totalTimeMS="2.179900" startTime="678357403089" stopTime="678357424888" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.796900" startTime="678357403212" stopTime="678357411181" args=""> 
+				</block>
+				<block name="CCryPak::FReadRaw" totalTimeMS="0.200600" startTime="678357419436" stopTime="678357421442" args=""> 
+					<block name="CZipPseudoFile::FRead" totalTimeMS="0.200100" startTime="678357419439" stopTime="678357421440" args=""> 
+						<block name="ZipDir::ZipRawUncompress" totalTimeMS="0.139400" startTime="678357419586" stopTime="678357420980" args=""> 
+							<block name="ZlibInflateElement_Impl" totalTimeMS="0.139100" startTime="678357419589" stopTime="678357420980" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::InitScriptSystem" totalTimeMS="1.201600" startTime="678357425044" stopTime="678357437060" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.585200" startTime="678357425181" stopTime="678357431033" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::InitEntitySystem" totalTimeMS="1.787600" startTime="678357437164" stopTime="678357455040" args=""> 
+				<block name="CSystem::LoadDLL" totalTimeMS="0.553800" startTime="678357437292" stopTime="678357442830" args=""> 
+				</block>
+			</block>
+			<block name="CAISystem::Init" totalTimeMS="1.737100" startTime="678357455398" stopTime="678357472769" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.142600" startTime="678357467588" stopTime="678357469014" args="Libs/AITargetStimulusConfig.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.140300" startTime="678357467602" stopTime="678357469005" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.189400" startTime="678357473418" stopTime="678357475312" args="Config/PerfHud_PC.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="0.187100" startTime="678357473439" stopTime="678357475310" args=""> 
+				</block>
+			</block>
+			<block name="CTexture::LoadFromImage" totalTimeMS="0.230900" startTime="678357484009" stopTime="678357486318" args="EngineAssets/Textures/White.dds"> 
+			</block>
+		</block>
+		<block name="CCryAction::Init() after system" totalTimeMS="42.037403" startTime="678357487747" stopTime="678357908121" args=""> 
+			<block name="CLevelSystem::CLevelSystem" totalTimeMS="14.274400" startTime="678357491066" stopTime="678357633810" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="8.748700" startTime="678357491069" stopTime="678357578556" args="Libs/Levels/leveltypes.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="8.739500" startTime="678357491127" stopTime="678357578522" args=""> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="8.618500" startTime="678357491681" stopTime="678357577866" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="8.617700" startTime="678357491684" stopTime="678357577861" args=""> 
+								<block name="CIOWrapper::Fread" totalTimeMS="8.601400" startTime="678357491711" stopTime="678357577725" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="4.014400" startTime="678357582221" stopTime="678357622365" args="levels/_Empty/_Empty.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="4.008300" startTime="678357582250" stopTime="678357622333" args=""> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="3.889400" startTime="678357582814" stopTime="678357621708" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="3.888500" startTime="678357582817" stopTime="678357621702" args=""> 
+								<block name="CIOWrapper::Fread" totalTimeMS="3.864400" startTime="678357582874" stopTime="678357621518" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.245700" startTime="678357625036" stopTime="678357627493" args="levels/_SurfaceTest/_SurfaceTest.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.241500" startTime="678357625067" stopTime="678357627482" args=""> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.155100" startTime="678357625531" stopTime="678357627082" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="0.154300" startTime="678357625537" stopTime="678357627080" args=""> 
+								<block name="CIOWrapper::Fread" totalTimeMS="0.138000" startTime="678357625570" stopTime="678357626950" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.208600" startTime="678357628998" stopTime="678357631084" args="levels/BattleRoyale/BattleRoyale.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.205800" startTime="678357629016" stopTime="678357631074" args=""> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="0.118400" startTime="678357629477" stopTime="678357630661" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="0.118000" startTime="678357629479" stopTime="678357630659" args=""> 
+								<block name="CIOWrapper::Fread" totalTimeMS="0.105000" startTime="678357629502" stopTime="678357630552" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.134600" startTime="678357632347" stopTime="678357633693" args="levels/islands/islands.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.131700" startTime="678357632364" stopTime="678357633681" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.103200" startTime="678357636103" stopTime="678357637135" args="Scripts/Network/EntityScheduler.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="0.100400" startTime="678357636122" stopTime="678357637126" args=""> 
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="10.013000" startTime="678357641130" stopTime="678357741260" args="Libs/FlowNodes/DialogFlowNodeBuffers.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="10.008300" startTime="678357641148" stopTime="678357741231" args=""> 
+					<block name="CCryPak::FReadRaw" totalTimeMS="9.892500" startTime="678357641695" stopTime="678357740620" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="9.891900" startTime="678357641697" stopTime="678357740616" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="9.875800" startTime="678357641720" stopTime="678357740478" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="3.227200" startTime="678357747383" stopTime="678357779655" args="Libs/Readability/Faces/Faces.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="3.222200" startTime="678357747414" stopTime="678357779636" args=""> 
+					<block name="CCryPak::FReadRaw" totalTimeMS="3.116700" startTime="678357747937" stopTime="678357779104" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="3.115900" startTime="678357747940" stopTime="678357779099" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="3.072800" startTime="678357747973" stopTime="678357778701" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="5.555500" startTime="678357781703" stopTime="678357837258" args="Libs/Config/Profiles/default/attributes.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="5.550900" startTime="678357781719" stopTime="678357837228" args=""> 
+					<block name="CCryPak::FReadRaw" totalTimeMS="5.413600" startTime="678357782267" stopTime="678357836403" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="5.412200" startTime="678357782270" stopTime="678357836392" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="5.362700" startTime="678357782297" stopTime="678357835924" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="6.682700" startTime="678357837282" stopTime="678357904109" args="Libs/Config/Profiles/default/actionmaps.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="6.676300" startTime="678357837312" stopTime="678357904075" args=""> 
+					<block name="CCryPak::FReadRaw" totalTimeMS="6.547400" startTime="678357837877" stopTime="678357903351" args=""> 
+						<block name="CZipPseudoFile::FRead" totalTimeMS="6.546500" startTime="678357837880" stopTime="678357903345" args=""> 
+							<block name="CIOWrapper::Fread" totalTimeMS="6.523700" startTime="678357837914" stopTime="678357903151" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.147300" startTime="678357905170" stopTime="678357906643" args="Scripts/Network/StatsConfig.xml"> 
+				<block name="XmlParserImp::ParseFile" totalTimeMS="0.136300" startTime="678357905269" stopTime="678357906632" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CGameStartup::Init" totalTimeMS="46.345901" startTime="678357908950" stopTime="678358372409" args=""> 
+			<block name="CGameStartup::Reset" totalTimeMS="31.724701" startTime="678357909199" stopTime="678358226446" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.117600" startTime="678357911730" stopTime="678357912906" args="scripts/animPairs.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.113800" startTime="678357911757" stopTime="678357912895" args=""> 
+					</block>
+				</block>
+				<block name="CGame::Init" totalTimeMS="31.323900" startTime="678357913201" stopTime="678358226440" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.289000" startTime="678357913521" stopTime="678357916411" args="Libs/Localization/localization.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.286000" startTime="678357913539" stopTime="678357916399" args=""> 
+							<block name="CCryPak::FReadRaw" totalTimeMS="0.164000" startTime="678357914245" stopTime="678357915885" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="0.163300" startTime="678357914249" stopTime="678357915882" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="0.148200" startTime="678357914284" stopTime="678357915766" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CLocalizedStringsManager::DoLoadExcelXmlSpreadsheet" totalTimeMS="0.883400" startTime="678357916570" stopTime="678357925404" args="Localization\text_ui_ingame.xml"> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.670500" startTime="678357916579" stopTime="678357923284" args="Localization\text_ui_ingame.xml"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.668700" startTime="678357916595" stopTime="678357923282" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CLocalizedStringsManager::DoLoadExcelXmlSpreadsheet" totalTimeMS="2.226100" startTime="678357925409" stopTime="678357947670" args="Localization\text_ui_menus.xml"> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="1.464800" startTime="678357925415" stopTime="678357940063" args="Localization\text_ui_menus.xml"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="1.463700" startTime="678357925425" stopTime="678357940062" args=""> 
+								<block name="CCryPak::FReadRaw" totalTimeMS="0.128400" startTime="678357926002" stopTime="678357927286" args=""> 
+									<block name="CZipPseudoFile::FRead" totalTimeMS="0.126700" startTime="678357926018" stopTime="678357927285" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="5.800700" startTime="678357963605" stopTime="678358021612" args="libs/config/defaultProfile.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="5.795000" startTime="678357963641" stopTime="678358021591" args=""> 
+							<block name="CCryPak::FReadRaw" totalTimeMS="5.635000" startTime="678357964579" stopTime="678358020929" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="5.634200" startTime="678357964582" stopTime="678358020924" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="5.582100" startTime="678357964629" stopTime="678358020450" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.116300" startTime="678358030333" stopTime="678358031496" args="Scripts/GameRules/LevelNames.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.112000" startTime="678358030364" stopTime="678358031484" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.134700" startTime="678358041672" stopTime="678358043019" args="USER/Profiles/default/profile.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.133100" startTime="678358041686" stopTime="678358043017" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.101400" startTime="678358043898" stopTime="678358044912" args="USER/Profiles/default/attributes.xml"> 
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.115400" startTime="678358048350" stopTime="678358049504" args="Libs/Config/Profiles/Default/levelrotation/levelrotation.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.112300" startTime="678358048376" stopTime="678358049499" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.111400" startTime="678358052991" stopTime="678358054105" args="Scripts/Network/TCPServices.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.108800" startTime="678358053009" stopTime="678358054097" args=""> 
+						</block>
+					</block>
+					<block name="CCryAction::InitForceFeedbackSystem" totalTimeMS="0.532700" startTime="678358070173" stopTime="678358075500" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.425400" startTime="678358070436" stopTime="678358074690" args="Libs/GameForceFeedback/ForceFeedbackEffects.xml"> 
+							<block name="XmlParserImp::ParseFile" totalTimeMS="0.421700" startTime="678358070464" stopTime="678358074681" args=""> 
+								<block name="CCryPak::FReadRaw" totalTimeMS="0.314800" startTime="678358071041" stopTime="678358074189" args=""> 
+									<block name="CZipPseudoFile::FRead" totalTimeMS="0.314200" startTime="678358071044" stopTime="678358074186" args=""> 
+										<block name="CIOWrapper::Fread" totalTimeMS="0.280600" startTime="678358071079" stopTime="678358073885" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.109900" startTime="678358092383" stopTime="678358093482" args="Scripts/Playlists/PlaylistIndex.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.106300" startTime="678358092409" stopTime="678358093472" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.262700" startTime="678358097524" stopTime="678358100151" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.132800" startTime="678358130187" stopTime="678358131515" args=""> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.130100" startTime="678358130210" stopTime="678358131511" args=""> 
+						</block>
+					</block>
+					<block name="CLog::LogV" totalTimeMS="4.666200" startTime="678358154689" stopTime="678358201351" args=""> 
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.398100" startTime="678358201651" stopTime="678358205632" args="Libs/Telemetry/MP.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.392000" startTime="678358201697" stopTime="678358205617" args=""> 
+							<block name="CCryPak::FOpen" totalTimeMS="0.105800" startTime="678358201712" stopTime="678358202770" args=""> 
+							</block>
+							<block name="CCryPak::FReadRaw" totalTimeMS="0.227700" startTime="678358202783" stopTime="678358205060" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="0.227000" startTime="678358202787" stopTime="678358205057" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="0.209100" startTime="678358202846" stopTime="678358204937" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.108000" startTime="678358217387" stopTime="678358218467" args="Libs/HitDeathReactionsData/ReactionsPreloadListMP.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.104300" startTime="678358217417" stopTime="678358218460" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.138200" startTime="678358219086" stopTime="678358220468" args="Libs/LightningArc/LightningArcEffects.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.136600" startTime="678358219096" stopTime="678358220462" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.111400" startTime="678358223121" stopTime="678358224235" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CCryAction::CompleteInit" totalTimeMS="14.590400" startTime="678358226505" stopTime="678358372409" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="1.426900" startTime="678358227222" stopTime="678358241491" args="Libs/FlowNodes/FlownodeBlacklist.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="1.424800" startTime="678358227235" stopTime="678358241483" args=""> 
+						<block name="CCryPak::FReadRaw" totalTimeMS="1.331300" startTime="678358227726" stopTime="678358241039" args=""> 
+							<block name="CZipPseudoFile::FRead" totalTimeMS="1.330800" startTime="678358227728" stopTime="678358241036" args=""> 
+								<block name="CIOWrapper::Fread" totalTimeMS="1.278500" startTime="678358227752" stopTime="678358240537" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.154100" startTime="678358262939" stopTime="678358264480" args="Libs/FlowNodes/scriptcommand.node"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.150500" startTime="678358262966" stopTime="678358264471" args=""> 
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.148200" startTime="678358265880" stopTime="678358267362" args="Libs/FlowNodes/spawnparticleeffect.node"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.145500" startTime="678358265897" stopTime="678358267352" args=""> 
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.116000" startTime="678358268399" stopTime="678358269559" args="Libs/FlowNodes/testscripted.node"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.113600" startTime="678358268416" stopTime="678358269552" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::FOpen" totalTimeMS="0.145900" startTime="678358281760" stopTime="678358283219" args=""> 
+				</block>
+				<block name="CCryAction::InitForceFeedbackSystem" totalTimeMS="0.184700" startTime="678358303650" stopTime="678358305497" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.120300" startTime="678358303893" stopTime="678358305096" args="Libs/GameForceFeedback/ForceFeedbackEffects.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.117300" startTime="678358303915" stopTime="678358305088" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CCryAction::CompleteInit(): EquipmentPacks" totalTimeMS="0.480900" startTime="678358305526" stopTime="678358310335" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.220400" startTime="678358306130" stopTime="678358308334" args="Libs/EquipmentPacks/ai_empty.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.216700" startTime="678358306158" stopTime="678358308325" args=""> 
+							<block name="CCryPak::FReadRaw" totalTimeMS="0.125000" startTime="678358306554" stopTime="678358307804" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="0.124500" startTime="678358306557" stopTime="678358307802" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="0.114300" startTime="678358306578" stopTime="678358307721" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::InitDefaults" totalTimeMS="3.574700" startTime="678358310458" stopTime="678358346205" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.338600" startTime="678358310478" stopTime="678358313864" args="Libs/MaterialEffects/SurfaceTypes.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.334800" startTime="678358310509" stopTime="678358313857" args=""> 
+							<block name="CCryPak::FReadRaw" totalTimeMS="0.249600" startTime="678358310943" stopTime="678358313439" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="0.249200" startTime="678358310945" stopTime="678358313437" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="0.205600" startTime="678358310962" stopTime="678358313018" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CMatMan::LoadMaterial" totalTimeMS="2.897300" startTime="678358317089" stopTime="678358346062" args=""> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="2.751100" startTime="678358317093" stopTime="678358344604" args=""> 
+							<block name="CCryPak::FReadRaw" totalTimeMS="2.553900" startTime="678358317617" stopTime="678358343156" args=""> 
+								<block name="CZipPseudoFile::FRead" totalTimeMS="2.553000" startTime="678358317619" stopTime="678358343149" args=""> 
+									<block name="CIOWrapper::Fread" totalTimeMS="2.523600" startTime="678358317640" stopTime="678358342876" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CWeaponSystem::LoadItemParams" totalTimeMS="0.216400" startTime="678358347815" stopTime="678358349979" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.193300" startTime="678358348045" stopTime="678358349978" args="Scripts/Entities/Items/ItemPackages.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.187200" startTime="678358348086" stopTime="678358349958" args=""> 
+							<block name="CCryPak::FOpen" totalTimeMS="0.138800" startTime="678358348099" stopTime="678358349487" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.141500" startTime="678358351016" stopTime="678358352431" args="scripts/gamerules/frontendmodelcache.xml"> 
+					<block name="XmlParserImp::ParseFile" totalTimeMS="0.136400" startTime="678358351053" stopTime="678358352417" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.108000" startTime="678358351061" stopTime="678358352141" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CMaterialFGManager::LoadLibs" totalTimeMS="1.630300" startTime="678358354196" stopTime="678358370499" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.120900" startTime="678358354983" stopTime="678358356192" args="Libs/MaterialEffects/FlowGraphs/blood_bullet_hit.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.117600" startTime="678358355009" stopTime="678358356185" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.136300" startTime="678358358048" stopTime="678358359411" args="Libs/MaterialEffects/FlowGraphs/bullet_suppression.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.133800" startTime="678358358066" stopTime="678358359404" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.156600" startTime="678358361772" stopTime="678358363338" args="Libs/MaterialEffects/FlowGraphs/dirt_bullet_hit.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.153200" startTime="678358361794" stopTime="678358363326" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.180200" startTime="678358363815" stopTime="678358365617" args="Libs/MaterialEffects/FlowGraphs/player_damage.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.177100" startTime="678358363838" stopTime="678358365609" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.117500" startTime="678358366126" stopTime="678358367301" args="Libs/MaterialEffects/FlowGraphs/player_death.xml"> 
+						<block name="XmlParserImp::ParseFile" totalTimeMS="0.115100" startTime="678358366144" stopTime="678358367295" args=""> 
+						</block>
+					</block>
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.100300" startTime="678358368134" stopTime="678358369137" args="Libs/MaterialEffects/FlowGraphs/player_temperature.xml"> 
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>
